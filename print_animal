@@ -1,3 +1,5 @@
+""" Импортируем класс Cat из файла cat.py """
+
 from cat import Cat
 
 animal_catalog = [
