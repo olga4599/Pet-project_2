@@ -1,0 +1,19 @@
+from cat import Cat
+
+animal_catalog = [
+    {
+    "name":"Feliks",
+    "gender":"male",
+    "age": 2,
+    },
+    {
+    "name":"Baron",
+    "gender":"male",
+    "age":2,
+    },
+]
+
+for animal in animal_catalog:
+    animal_obj = Cat()
+    animal_obj.init_from_dict(animal)
+    print(animal_obj.name, animal_obj.gender, animal_obj.age)
